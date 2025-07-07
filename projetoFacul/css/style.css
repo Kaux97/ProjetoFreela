@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    background-color: rgb(228, 243, 228);
+    background-position: center;
+    height: 150vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    
+}
+
+.logo{
+    width: 10vh;
+    padding: 3%;
+    margin: 0 auto;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 161, 18);
+    justify-content: center;
+    
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav ul li a{
+    padding: 10px 20px ;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: 0,6s;
+
+}
+
+nav ul li a:hover{
+    background-color: white;
+}
+
+.tela{
+    width: 2100px;
+    height: 470px;
+    background: rgba(54, 83, 47, 0.658);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+section{
+    
+    width: 600px;
+    height: 270px;
+    background: rgb(228, 243, 228);
+    border: 2px solid rgb(75, 104, 75);
+    position: absolute;
+    left: 275px;
+    border-radius: 10px;
+}
+
+
+
+
+.texto h2{
+    font-size: 45px;
+    color: rgb(88, 143, 95);
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.texto p{
+    font-size: 20px;
+    padding-left: 10px;
+    color: rgb(104, 104, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+#tour{
+    width: 190px;
+    height: 620px;
+    background: rgb(74, 104, 75);
+
+}
+
+.tela button{
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    background: rgb(3, 207, 3);
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    animation: pulsar 1.5s infinite;
+    box-shadow: 0 0 0 rgb(0, 255, 98);
+    transition: transform 0,2s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.principais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.principais img{
+    display: inline-block;
+}
+
+
+.principais h2{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulsar 1.5s infinite;
+    box-shadow: 0 0 0 rgb(46, 180, 98);
+    transition: transform 0,2s;
+}
+
+
+.nomes{
+    display: flex;
+    gap: 160px;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+#micro {
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#masso{
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#podo{
+    height: 200px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+
+.funcionarias{
+    margin-top: 200px;
+    height: 650px;
+    width: 2105px;
+    background: rgba(54, 83, 47, 0.658);
+}
+
+.funcionarias ul{
+    list-style: none;
+    
+}
+
+.marcia, p{
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#marcia{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px rgb(63, 117, 63) solid;
+    padding: 0, 10px, 10px;
+    margin-bottom: 2px;
+    
+}
+
+
+#pessoa1{
+    
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px rgb(63, 117, 63) solid;
+    margin-bottom: 2px;
+    padding: 0, 10px, 10px;
+
+}
+
+#pessoa2{
+
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px rgb(63, 117, 63) solid;
+    margin-bottom: 2px;
+    padding: 0, 10px, 10px;
+
+}
+
+#pessoa3{
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+    border: 3px rgb(63, 117, 63) solid;
+    margin-bottom: 2px;
+    padding: 0, 10px, 10px;
+}
+
+.funcionarias h2{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 25px;
+}
+
+
+.informaçoes h2{
+    font-size: 35px;
+    color: rgb(77, 122, 83);
+    padding-left: 20px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.informaçoes h3{
+    font-size: 25px;
+    color: rgb(77, 122, 83);
+    margin-bottom: 15px;
+
+}
+
+#zap, p{
+    display: inline-block;
+}
+
+
+@keyframes pulsar {
+   0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(30, 255, 0, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 10px rgba(0, 123, 255, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+      }
+}
+
+@keyframes pulsar{
+     0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(30, 255, 0, 0.7);
+      }
+      70% {
+        transform: scale(1.05);
+        box-shadow: 0 0 10px 10px rgba(0, 123, 255, 0);
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(0, 123, 255, 0);
+      }
+
+}
+
+
+
+
